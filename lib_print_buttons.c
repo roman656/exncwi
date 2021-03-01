@@ -19,7 +19,7 @@ int print_buttons(const Button* root_button_ptr, bool show_box,
     /* Проход по всем кнопкам в списке. */
     for (uint32_t i = 0; root_button_ptr != NULL; i++)
     {
-        /* Применение соответсвующих текущей кнопке аттрибутов (если задано). */
+        /* Применение соответсвующих текущей кнопке атрибутов (если задано). */
         if (use_attributes
                 && (wbkgd(root_button_ptr->button_win, attributes[i]) != OK))
         {
