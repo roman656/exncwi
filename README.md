@@ -1,9 +1,9 @@
 # exncwi
-The library in the C programming language. Based on ncurses. Contains various functions that simplify working with pseudo-graphics.
-# example
+Библиотека exncwi - надстройка над ncurses. Позволяет быстрее и удобнее разрабатывать псевдографические интерфейсы. 
+# Пример применения библиотеки
 ![example image](examples/images/exncwi_example_0.png)
 # TODO
-- menus
-- dialog windows
-- mouse support
+- меню
+- диалоговые окна
+- работа с мышью
 - ...
